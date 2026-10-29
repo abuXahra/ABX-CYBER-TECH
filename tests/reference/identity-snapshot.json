@@ -1,0 +1,338 @@
+{
+ "header link": {
+  "fontSize": "13.7599px",
+  "fontWeight": "600",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "22.0158px",
+  "letterSpacing": "normal"
+ },
+ "header cta": {
+  "backgroundColor": "rgba(0, 0, 0, 0)",
+  "borderRadius": "0px",
+  "borderTopColor": "rgb(229, 231, 235)",
+  "borderTopWidth": "0px",
+  "color": "rgb(11, 37, 48)",
+  "fontSize": "13.7599px",
+  "fontWeight": "600",
+  "w": 55,
+  "h": 40
+ },
+ "header logo": {
+  "w": 294
+ },
+ "hero eyebrow": {
+  "fontSize": "12.7999px",
+  "fontWeight": "700",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(0, 124, 132)",
+  "lineHeight": "20.4798px",
+  "letterSpacing": "1.27999px"
+ },
+ "hero h1": {
+  "fontSize": "52.4795px",
+  "fontWeight": "800",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "53.5291px",
+  "letterSpacing": "-1.31199px"
+ },
+ "hero p": {
+  "fontSize": "15.6798px",
+  "fontWeight": "400",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(63, 80, 91)",
+  "lineHeight": "23.2062px",
+  "letterSpacing": "normal"
+ },
+ "hero primary btn": {
+  "backgroundColor": "rgb(252, 170, 43)",
+  "borderRadius": "9999px",
+  "borderTopColor": "rgb(229, 231, 235)",
+  "borderTopWidth": "0px",
+  "color": "rgb(11, 37, 48)",
+  "fontSize": "15.1998px",
+  "fontWeight": "600",
+  "w": 179,
+  "h": 49
+ },
+ "hero image": {
+  "w": 855,
+  "h": 485
+ },
+ "cred heading": {
+  "fontSize": "11.1999px",
+  "fontWeight": "600",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgba(63, 80, 91, 0.75)",
+  "lineHeight": "12.8799px",
+  "letterSpacing": "1.45599px"
+ },
+ "cred logo text": {
+  "fontSize": "17.9198px",
+  "fontWeight": "600",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(63, 80, 91)",
+  "lineHeight": "28.6717px",
+  "letterSpacing": "normal"
+ },
+ "services eyebrow": {
+  "fontSize": "11.8399px",
+  "fontWeight": "700",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(0, 124, 132)",
+  "lineHeight": "18.9438px",
+  "letterSpacing": "1.18399px"
+ },
+ "services h2": {
+  "fontSize": "29.1197px",
+  "fontWeight": "800",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "33.4877px",
+  "letterSpacing": "-0.436796px"
+ },
+ "services desc": {
+  "fontSize": "14.7199px",
+  "fontWeight": "400",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(63, 80, 91)",
+  "lineHeight": "23.5518px",
+  "letterSpacing": "normal"
+ },
+ "service card": {
+  "backgroundColor": "rgb(255, 255, 255)",
+  "borderRadius": "12.7999px",
+  "borderTopColor": "rgb(227, 235, 237)",
+  "borderTopWidth": "1px",
+  "color": "rgb(63, 80, 91)",
+  "fontSize": "15.9998px",
+  "fontWeight": "400",
+  "w": 226,
+  "h": 219
+ },
+ "service h3": {
+  "fontSize": "16.9598px",
+  "fontWeight": "700",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "21.7086px",
+  "letterSpacing": "normal"
+ },
+ "service p": {
+  "fontSize": "14.3999px",
+  "fontWeight": "400",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(63, 80, 91)",
+  "lineHeight": "22.3198px",
+  "letterSpacing": "normal"
+ },
+ "service icon": {
+  "w": 16,
+  "h": 16,
+  "color": "rgb(0, 89, 92)"
+ },
+ "about image": {
+  "w": 523,
+  "h": 336,
+  "borderRadius": "0px"
+ },
+ "about h2": {
+  "fontSize": "29.4397px",
+  "fontWeight": "800",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "33.8557px",
+  "letterSpacing": "-0.441596px"
+ },
+ "about p": {
+  "fontSize": "16.3198px",
+  "fontWeight": "400",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(63, 80, 91)",
+  "lineHeight": "23.1742px",
+  "letterSpacing": "normal"
+ },
+ "about highlight icon": {
+  "w": 42,
+  "h": 42,
+  "backgroundColor": "rgb(189, 240, 242)",
+  "borderRadius": "9999px"
+ },
+ "about highlight title": {
+  "fontSize": "15.1998px",
+  "fontWeight": "700",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "18.9998px",
+  "letterSpacing": "normal"
+ },
+ "about button": {
+  "backgroundColor": "rgb(0, 86, 88)",
+  "borderRadius": "9999px",
+  "borderTopColor": "rgb(229, 231, 235)",
+  "borderTopWidth": "0px",
+  "color": "rgb(255, 255, 255)",
+  "fontSize": "15.1998px",
+  "fontWeight": "600",
+  "w": 243,
+  "h": 44
+ },
+ "portfolio h2": {
+  "fontSize": "26.3997px",
+  "fontWeight": "800",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "30.3597px",
+  "letterSpacing": "-0.395996px"
+ },
+ "portfolio card": {
+  "w": 230,
+  "borderRadius": "8.79991px",
+  "backgroundColor": "rgb(255, 255, 255)"
+ },
+ "portfolio card image": {
+  "w": 230,
+  "h": 107
+ },
+ "portfolio h3": {
+  "fontSize": "13.7599px",
+  "fontWeight": "700",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "17.1998px",
+  "letterSpacing": "normal"
+ },
+ "portfolio category": {
+  "fontSize": "11.8399px",
+  "fontWeight": "400",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(0, 124, 132)",
+  "lineHeight": "18.9438px",
+  "letterSpacing": "normal"
+ },
+ "portfolio button": {
+  "backgroundColor": "rgb(0, 86, 88)",
+  "borderRadius": "9999px",
+  "borderTopColor": "rgb(229, 231, 235)",
+  "borderTopWidth": "0px",
+  "color": "rgb(255, 255, 255)",
+  "fontSize": "15.1998px",
+  "fontWeight": "600",
+  "w": 201,
+  "h": 44
+ },
+ "testimonials h2": {
+  "fontSize": "23.9998px",
+  "fontWeight": "800",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "27.5997px",
+  "letterSpacing": "-0.239998px"
+ },
+ "testimonial card": {
+  "w": 393,
+  "borderRadius": "7.99992px",
+  "borderTopColor": "rgb(227, 235, 237)",
+  "backgroundColor": "rgb(255, 255, 255)"
+ },
+ "testimonial quote": {
+  "fontSize": "13.4399px",
+  "fontWeight": "400",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgba(11, 37, 48, 0.85)",
+  "lineHeight": "18.8158px",
+  "letterSpacing": "normal"
+ },
+ "testimonial name": {
+  "fontSize": "14.0799px",
+  "fontWeight": "700",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "17.5998px",
+  "letterSpacing": "normal"
+ },
+ "testimonial avatar": {
+  "w": 48,
+  "h": 48
+ },
+ "cta h2": {
+  "fontSize": "25.9197px",
+  "fontWeight": "800",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(255, 255, 255)",
+  "lineHeight": "29.8077px",
+  "letterSpacing": "-0.259197px"
+ },
+ "cta eyebrow": {
+  "fontSize": "11.8399px",
+  "fontWeight": "700",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(65, 220, 233)",
+  "lineHeight": "18.9438px",
+  "letterSpacing": "0.947191px"
+ },
+ "cta bg": {
+  "backgroundImage": "linear-gradient(90deg, rgb(0, 57, 63), rgb(1, 89, 92))"
+ },
+ "cta primary": {
+  "backgroundColor": "rgb(252, 170, 43)",
+  "borderRadius": "9999px",
+  "borderTopColor": "rgb(229, 231, 235)",
+  "borderTopWidth": "0px",
+  "color": "rgb(11, 37, 48)",
+  "fontSize": "15.1998px",
+  "fontWeight": "600",
+  "w": 179,
+  "h": 49
+ },
+ "faq h2": {
+  "fontSize": "21.5998px",
+  "fontWeight": "800",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "24.8398px",
+  "letterSpacing": "-0.215998px"
+ },
+ "faq row": {
+  "fontSize": "13.4399px",
+  "fontWeight": "500",
+  "color": "rgb(11, 37, 48)",
+  "borderRadius": "0px"
+ },
+ "faq promo": {
+  "backgroundColor": "rgba(238, 250, 251, 0.6)",
+  "borderRadius": "17.5998px"
+ },
+ "faq promo h2": {
+  "fontSize": "29.5997px",
+  "fontWeight": "800",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(11, 37, 48)",
+  "lineHeight": "34.0397px",
+  "letterSpacing": "-0.443996px"
+ },
+ "footer": {
+  "backgroundColor": "rgba(0, 0, 0, 0)",
+  "color": "rgb(214, 232, 234)"
+ },
+ "footer heading": {
+  "fontSize": "14.0799px",
+  "fontWeight": "700",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgb(255, 255, 255)",
+  "lineHeight": "16.1918px",
+  "letterSpacing": "normal"
+ },
+ "footer link": {
+  "fontSize": "13.1199px",
+  "fontWeight": "400",
+  "fontFamily": "\"Plus Jakarta Sans Variable\", ui-sans-serif, system-ui, sans-serif",
+  "color": "rgba(214, 232, 234, 0.85)",
+  "lineHeight": "15.7438px",
+  "letterSpacing": "normal"
+ },
+ "footer logo": {
+  "w": 294
+ }
+}

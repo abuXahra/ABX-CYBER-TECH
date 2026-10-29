@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Safe defaults only. The published, validated theme from MongoDB overrides these at runtime
+   (injected by the root layout), so no brand value is permanently baked into components. */
+:root {
+  --color-primary-rgb: 0 89 92;
+  --color-secondary-rgb: 1 84 90;
+  --color-dark-rgb: 0 48 54;
+  --color-accent-rgb: 252 170 43;
+  --color-background-rgb: 255 255 255;
+  --color-surface-rgb: 238 250 251;
+  --color-foreground-rgb: 63 80 91;
+  --color-heading-rgb: 11 37 48;
+  --color-border-rgb: 227 235 237;
+  --color-navbar-bg-rgb: 255 255 255;
+  --color-navbar-text-rgb: 11 37 48;
+  --color-footer-bg-rgb: 0 48 54;
+  --color-footer-text-rgb: 214 232 234;
+  --color-button-bg-rgb: 0 86 88;
+  --color-button-text-rgb: 255 255 255;
+  --color-accent-button-bg-rgb: 252 170 43;
+  --color-accent-button-text-rgb: 11 37 48;
+  --color-hover-rgb: 0 124 132;
+  --color-focus-ring-rgb: 217 119 6;
+  --color-cyan-rgb: 65 220 233;
+  --color-tint-rgb: 189 240 242;
+  --font-heading: "Plus Jakarta Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --heading-scale: 1;
+  --body-scale: 1;
+  --heading-weight: 700;
+  --body-weight: 400;
+  --line-height: 1.6;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --shadow-card: 0 1px 3px rgb(4 47 46 / 0.08), 0 4px 16px rgb(4 47 46 / 0.06);
+  --shadow-card-hover: 0 8px 28px rgb(4 47 46 / 0.14);
+  --section-y: 5.5rem;
+  --card-pad: 1.75rem;
+  --card-gap: 1.5rem;
+}
+@media (max-width: 899px) { :root { --section-y: 4.25rem; } }
+@media (max-width: 639px) { :root { --section-y: 3.5rem; --card-pad: 1.5rem; } }
+
+/* The approved design is a 1440px desktop layout. From 900px up, every rem scales with the viewport so the
+   desktop composition keeps its proportions (1440px = 16px root). Below 900px the layout stacks at a normal size. */
+@media (min-width: 900px) {
+  html { font-size: clamp(11.5px, 1.1111vw, 16px); }
+}
+/* Content width: max-w-7xl (80rem) with horizontal gutters — 1.25rem phones, 1.5rem tablets, 1.75rem desktop.
+   At desktop this yields the same 76.5rem content width as the approved design. */
+@layer components {
+  .container-abx { width: 100%; max-width: 80rem; margin-inline: auto; padding-inline: 1.25rem; }
+  .container-abx-wide { width: 100%; max-width: 93.5rem; margin-inline: auto; padding-inline: 1.25rem; }
+  @media (min-width: 640px) { .container-abx, .container-abx-wide { padding-inline: 1.5rem; } }
+  @media (min-width: 900px) { .container-abx, .container-abx-wide { padding-inline: 1.75rem; } }
+  /* Section rhythm: padding derives from the theme token --section-y (editable in Appearance → Spacing). */
+  .sy { padding-block: calc(var(--section-y) * var(--sy-top, 1)) calc(var(--section-y) * var(--sy-bot, 1)); }
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    font-size: calc(1rem * var(--body-scale));
+    font-weight: var(--body-weight);
+    line-height: var(--line-height);
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading text-heading;
+    font-weight: var(--heading-weight);
+    line-height: 1.15;
+  }
+  /* Visible focus for every interactive element (WCAG 2.2 AA). */
+  :focus-visible { outline: 3px solid rgb(var(--color-focus-ring-rgb)); outline-offset: 3px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  /* Scroll-reveal content is server-rendered hidden until hydration; never leave it hidden for reduced-motion users. */
+  [style*="opacity:0"], [style*="opacity: 0"] { opacity: 1 !important; transform: none !important; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
